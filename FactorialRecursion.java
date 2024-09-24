@@ -14,7 +14,7 @@ public class FactorialRecursion {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the value of n: ");
         int n = sc.nextInt();
+        sc.close();
         System.out.printf("The factorial of %d is: %d", n, factorial(n));
-
     }
 }
